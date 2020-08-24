@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'BankGothic';
+    src: url('../tff/BankGothic.ttf') format('tff');
+}
+
+.navbar-brand {
+    font-family: 'BankGothic';
+}
