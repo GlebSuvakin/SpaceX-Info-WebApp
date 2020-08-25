@@ -6,3 +6,11 @@
 .navbar-brand {
     font-family: 'BankGothic';
 }
+
+.container-bg {
+    background: black;
+}
+
+.card-img-top {
+    display: flex;
+}

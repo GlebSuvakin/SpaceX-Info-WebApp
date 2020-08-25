@@ -1,0 +1,25 @@
+{
+  "name": "SpaceX-Info-WebApp",
+  "version": "1.0.0",
+  "description": "[Ссылка на приложение](https://glebsuvakin.github.io/SpaceX-Info-WebApp/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlebSuvakin/SpaceX-Info-WebApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GlebSuvakin/SpaceX-Info-WebApp/issues"
+  },
+  "homepage": "https://github.com/GlebSuvakin/SpaceX-Info-WebApp#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1"
+  }
+}
