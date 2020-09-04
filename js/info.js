@@ -1,5 +1,5 @@
-window.onload = () => {
-    fetch('https://api.spacexdata.com/v4/capsules')
+
+    fetch('https://api.spacexdata.com/v4/company')
     .then((response) => {
       return response.json();
     })
@@ -9,4 +9,5 @@ window.onload = () => {
       let obj = JSON.parse(txt);
       console.log(obj);
     });
-  }
+
+//https://api.spacexdata.com/v4/company

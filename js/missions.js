@@ -1,4 +1,4 @@
-window.onload = () => {
+
   fetch('https://api.spacexdata.com/v3/missions')
   .then((response) => {
     return response.json();
@@ -43,13 +43,6 @@ window.onload = () => {
         wiki[i].setAttribute('href', wiki_url[i]);
       }
     }
-    
-    /*console.log(name);
-    console.log(id);
-    console.log(twit_url);
-    console.log(website_url);
-    console.log(wiki_url);*/
   });
-}
 
 //https://api.spacexdata.com/v3/missions
